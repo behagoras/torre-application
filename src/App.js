@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
 
-function App() {
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from 'react-router-dom'
+import { ThemeProvider } from 'styled-components'
+import Navigation from './components/Navigation'
+import routes from './routes'
+import themes from './styled/themes/index'
+
+export default function App() {
+  const [theme, setTheme] = useState(themes.dark)
+  const toggleTheme = () => setTheme(theme === themes.light ? themes.dark : themes.light)
+  if (false)toggleTheme
+  const getPath = (route) => `${route.layout !== '/' ? route.layout : ''}${route.path}`
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <ThemeProvider theme={theme}>
+      <Router>
+        <div>
+          <Navigation />
+          <Switch>
+            {
+              routes.map((route) => {
+                const path = getPath(route)
+                return (
+                  <Route
+                    path={path}
+                    exact={route.exact}
+                    key={`route${route.layout}${route.path}`}
+                    component={route.component}
+                  />
+                )
+              })
+            }
+          </Switch>
+        </div>
+      </Router>
+    </ThemeProvider>
+  )
 }
 
-export default App;
