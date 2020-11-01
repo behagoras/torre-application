@@ -1,32 +1,40 @@
+import Axios from 'axios'
 import { useEffect, useState } from 'react'
-import { clientId, clientSecret, redirectUri } from '../config/index'
+import { clientId, clientSecret, redirectUri, dribbbleAccessToken, dribbbleGetUserActive } from '../config/index'
 
 export default function useGetDribbbleAuthToken(code) {
-  const [data, setData] = useState(null)
-  const requestOptions = {
-    method: 'POST',
-    // mode: 'no-cors',
-    redirect: 'follow',
-    referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-    headers: {
-      'Content-Type': 'application/json',
-    },
+  const [accessToken, setAccessToken] = useState(null)
+  const fetchData = () => {
+    console.log('fetchData -> dribbbleGetUserActive', dribbbleGetUserActive)
+    if (dribbbleGetUserActive) {
+      const urlPrefix = 'https://dribbble.com/oauth/token'
+      const fullUrl = `${urlPrefix}?client_id=${clientId}&client_secret=${clientSecret}&code=${code}&redirect_uri=${redirectUri}`
+      const config = {
+        method: 'post',
+        url: fullUrl,
+        cors: 'no-cors',
+        crossdomain: true,
+        headers: {
+          'Access-Control-Allow-Origin': '*',
+        },
+      }
+      return Axios(config)
+        .then((response) => {
+          const data = JSON.stringify(response.data)
+          console.log('useGetDribbbleAuthToken -> response', response)
+          console.log('useGetDribbbleAuthToken -> data', data)
+          setAccessToken(data)
+        })
+        .catch((error) => {
+          console.log(error)
+        })
+    }
+    setAccessToken(dribbbleAccessToken)
+    console.log('fetchData -> dribbbleAccessToken', dribbbleAccessToken)
   }
-
-  const urlPrefix = 'https://dribbble.com/oauth/token'
-  const fullUrl = `${urlPrefix}?client_id=${clientId}&client_secret=${clientSecret}&code=${code}&redirect_uri=${redirectUri}`
-  const fetchData = () => fetch(fullUrl, requestOptions)
-    .then((response) => {
-      console.log('useGetDribbbleAuthToken -> response', response)
-      return response.text()
-    })
-    .then((data) => {
-      console.log('useGetDribbbleAuthToken -> data', data)
-      setData(data)
-    })
-    .catch((error) => console.log('error', error))
   useEffect(() => {
     fetchData()
+    // console.log(fetchData)
   }, [])
-  return [data]
+  return [accessToken]
 }
