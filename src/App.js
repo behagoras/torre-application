@@ -6,9 +6,11 @@ import {
   Route,
 } from 'react-router-dom'
 import { ThemeProvider } from 'styled-components'
-import Navigation from './components/Navigation'
+// import Navigation from './components/Navigation'
 import routes from './routes'
+import GlobalStyles from './styled/GlobalStyles'
 import themes from './styled/themes/index'
+import Theme from './Theme'
 
 export default function App() {
   const [theme, setTheme] = useState(themes.dark)
@@ -17,9 +19,10 @@ export default function App() {
   const getPath = (route) => `${route.layout !== '/' ? route.layout : ''}${route.path}`
   return (
     <ThemeProvider theme={theme}>
+      <GlobalStyles />
       <Router>
-        <div>
-          <Navigation />
+        <Theme>
+          {/* <Navigation /> */}
           <Switch>
             {
               routes.map((route) => {
@@ -35,7 +38,7 @@ export default function App() {
               })
             }
           </Switch>
-        </div>
+        </Theme>
       </Router>
     </ThemeProvider>
   )
