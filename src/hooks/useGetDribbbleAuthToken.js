@@ -8,6 +8,10 @@ export default function useGetDribbbleAuthToken(code) {
       .then(({ ok, accessToken }) => {
         if (ok)setAccessToken(accessToken)
       })
+    DribbbleService.getShots()
+      .then((data) => {
+        console.log('getShots -> data', data)
+      })
   }, [])
   return [accessToken]
 }
