@@ -1,3 +1,4 @@
+import Dashboard from './pages/Dashboard'
 import Dribbble from './pages/Dribbble'
 import Home from './pages/Home'
 
@@ -7,6 +8,20 @@ const routes = [
     path: '/',
     title: 'Home',
     component: Home,
+    exact: true,
+  },
+  {
+    layout: '/dashboard',
+    path: '/',
+    title: 'Home',
+    component: Dashboard,
+    exact: true,
+  },
+  {
+    layout: '/dashboard',
+    path: '/:username',
+    title: 'Home',
+    component: Dashboard,
     exact: true,
   },
   {
