@@ -1,0 +1,2218 @@
+{
+  "aggregators": {},
+  "offset": 0,
+  "results": [
+    {
+      "id": "VdL428de",
+      "objective": "Developer Lead",
+      "type": "full-time-employment",
+      "organizations": [
+        {
+          "id": 501630,
+          "name": "Prometeo Soluciones",
+          "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1603026627/origin/bio/organizations/pzjpw8twzj3uujfcnlrp.jpg"
+        }
+      ],
+      "locations": [],
+      "remote": true,
+      "external": false,
+      "deadline": "2020-11-30T02:30:00.000Z",
+      "status": "open",
+      "compensation": {
+        "data": {
+          "code": "range",
+          "currency": "USD$",
+          "minAmount": 1000.0,
+          "maxAmount": 5000.0,
+          "periodicity": "monthly"
+        },
+        "visible": true
+      },
+      "skills": [
+        {
+          "name": "Java",
+          "experience": "potential-to-develop"
+        },
+        {
+          "name": "Python",
+          "experience": "potential-to-develop"
+        },
+        {
+          "name": "Developer",
+          "experience": "3-plus-years"
+        },
+        {
+          "name": "C",
+          "experience": "potential-to-develop"
+        },
+        {
+          "name": "Objective C",
+          "experience": "potential-to-develop"
+        },
+        {
+          "name": "Javascript",
+          "experience": "potential-to-develop"
+        },
+        {
+          "name": "Go",
+          "experience": "potential-to-develop"
+        },
+        {
+          "name": "C#",
+          "experience": "potential-to-develop"
+        },
+        {
+          "name": "C++",
+          "experience": "potential-to-develop"
+        }
+      ],
+      "members": [
+        {
+          "subjectId": "621686",
+          "name": "lorena prego",
+          "username": "lorenaprego",
+          "professionalHeadline": "Dueño",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/10c540aff56be9de79b6cc421b5dedb43c3335e8/profile_AT1uIYQ.jpg",
+          "member": true,
+          "manager": true,
+          "poster": false,
+          "weight": 0.0
+        },
+        {
+          "subjectId": "761417",
+          "name": "Tania Aguirre",
+          "username": "taniaaguirre",
+          "professionalHeadline": "Ing. en Desarrollo e Innovación Empresarial",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/5a93857d6f3ddd7a916a918b1d6a4723495f1b94/profile_asSGNgD.jpg",
+          "member": true,
+          "manager": true,
+          "poster": false,
+          "weight": 850.0
+        },
+        {
+          "subjectId": "790759",
+          "name": "Micaela Bettosini",
+          "username": "micaelab",
+          "professionalHeadline": "Licenciada en Psicologia",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/fa26065121b7e46338d13f3d7ea1ebc01f93d08e/profile_v7aFFUH.jpg",
+          "member": true,
+          "manager": true,
+          "poster": true,
+          "weight": 0.0
+        },
+        {
+          "subjectId": "792595",
+          "name": "Rodrigo Paravizzo",
+          "username": "rodrigop",
+          "professionalHeadline": "Associate Recruiter",
+          "picture": null,
+          "member": true,
+          "manager": true,
+          "poster": false,
+          "weight": 0.0
+        }
+      ],
+      "questions": [],
+      "context": {
+        "signaled": []
+      },
+      "_meta": {
+        "rank": 1.0,
+        "scorer": {
+          "@type": "and",
+          "score": 1.0,
+          "and": [
+            {
+              "@type": "concrete",
+              "id": "completion",
+              "input": {
+                "criteria": null,
+                "opportunity": {
+                  "completion": 1.0
+                }
+              },
+              "score": 1.0
+            }
+          ]
+        },
+        "filter": null,
+        "boosters": ["status", "internal"]
+      }
+    },
+    {
+      "id": "8wD6yArl",
+      "objective": "Regional Sales Manager, North Central",
+      "type": "full-time-employment",
+      "organizations": [
+        {
+          "id": 485847,
+          "name": "ThreatConnect, Inc.",
+          "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1600920180/origin/bio/organizations/ThreatConnect_2C_Inc__LOGO_tpaubc.jpg"
+        }
+      ],
+      "locations": ["United States"],
+      "remote": true,
+      "external": false,
+      "deadline": "2020-11-06T04:30:00.000Z",
+      "status": "open",
+      "compensation": {
+        "data": {
+          "code": "range",
+          "currency": "USD$",
+          "minAmount": 55000.0,
+          "maxAmount": 120000.0,
+          "periodicity": "hourly"
+        },
+        "visible": true
+      },
+      "skills": [
+        {
+          "name": "Sales",
+          "experience": "5-plus-years"
+        },
+        {
+          "name": "Software Security",
+          "experience": "5-plus-years"
+        },
+        {
+          "name": "Consulting",
+          "experience": "5-plus-years"
+        },
+        {
+          "name": "Communication skills",
+          "experience": "5-plus-years"
+        }
+      ],
+      "members": [
+        {
+          "subjectId": "219073",
+          "name": "Mariajosé Gómez",
+          "username": "mariajgomezg1",
+          "professionalHeadline": "Independent recruiter",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/1cdf6057e2ce1359eecd943e3f78b670e3e9a49f/profile_RO5e3cU.jpg",
+          "member": false,
+          "manager": true,
+          "poster": true,
+          "weight": 0.0
+        },
+        {
+          "subjectId": null,
+          "name": "Adam Vincent",
+          "username": "7807b4e9-a371-4918-aaf8-047168b4bd8b",
+          "professionalHeadline": "CEO",
+          "picture": "https://torre-media.s3-us-west-2.amazonaws.com/Adam+Vincent.jpg",
+          "member": true,
+          "manager": false,
+          "poster": false,
+          "weight": 0.0
+        }
+      ],
+      "questions": [],
+      "context": {
+        "signaled": []
+      },
+      "_meta": {
+        "rank": 1.0,
+        "scorer": {
+          "@type": "and",
+          "score": 1.0,
+          "and": [
+            {
+              "@type": "concrete",
+              "id": "completion",
+              "input": {
+                "criteria": null,
+                "opportunity": {
+                  "completion": 1.0
+                }
+              },
+              "score": 1.0
+            }
+          ]
+        },
+        "filter": null,
+        "boosters": ["status", "internal"]
+      }
+    },
+    {
+      "id": "JWO39GWQ",
+      "objective": "Remote Comics Feature Writer",
+      "type": "freelance-gigs",
+      "organizations": [
+        {
+          "id": 464180,
+          "name": "Valnet",
+          "picture": "https://torre-media.s3-us-west-2.amazonaws.com/Valnet.png"
+        }
+      ],
+      "locations": [],
+      "remote": true,
+      "external": false,
+      "deadline": "2020-11-11T04:30:00.000Z",
+      "status": "open",
+      "compensation": {
+        "data": {
+          "code": "range",
+          "currency": "USD$",
+          "minAmount": 20.0,
+          "maxAmount": 25.0,
+          "periodicity": "hourly"
+        },
+        "visible": true
+      },
+      "skills": [
+        {
+          "name": "Writing",
+          "experience": "1-plus-year"
+        },
+        {
+          "name": "Editing",
+          "experience": "1-plus-year"
+        },
+        {
+          "name": "Comics",
+          "experience": "1-plus-year"
+        },
+        {
+          "name": "Comic Art",
+          "experience": "1-plus-year"
+        }
+      ],
+      "members": [
+        {
+          "subjectId": "218202",
+          "name": "Ana María Varela",
+          "username": "AnaVarela",
+          "professionalHeadline": "Account Manager at Torre",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/a487a163de0be0ad390d9d3af0592b017601fd90/profile_Oo4O2Vj.jpg",
+          "member": false,
+          "manager": true,
+          "poster": false,
+          "weight": 472.1098
+        },
+        {
+          "subjectId": "219073",
+          "name": "Mariajosé Gómez",
+          "username": "mariajgomezg1",
+          "professionalHeadline": "Independent recruiter",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/1cdf6057e2ce1359eecd943e3f78b670e3e9a49f/profile_RO5e3cU.jpg",
+          "member": true,
+          "manager": true,
+          "poster": true,
+          "weight": 0.0
+        },
+        {
+          "subjectId": null,
+          "name": "Hassan Youssef",
+          "username": "d9ce50a8-4374-4ae3-9dd3-d141c2b4754f",
+          "professionalHeadline": "CEO",
+          "picture": "https://torre-media.s3-us-west-2.amazonaws.com/Hassan+Youssef.jpg",
+          "member": true,
+          "manager": false,
+          "poster": false,
+          "weight": 0.0
+        }
+      ],
+      "questions": [],
+      "context": {
+        "signaled": []
+      },
+      "_meta": {
+        "rank": 1.0,
+        "scorer": {
+          "@type": "and",
+          "score": 1.0,
+          "and": [
+            {
+              "@type": "concrete",
+              "id": "completion",
+              "input": {
+                "criteria": null,
+                "opportunity": {
+                  "completion": 1.0
+                }
+              },
+              "score": 1.0
+            }
+          ]
+        },
+        "filter": null,
+        "boosters": ["status", "internal"]
+      }
+    },
+    {
+      "id": "6WaklOd0",
+      "objective": "Cashback World Sales Representative para Colombia",
+      "type": "freelance-gigs",
+      "organizations": [
+        {
+          "id": 493221,
+          "name": "myWorld Colombia S.A.S.",
+          "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1603857105/origin/bio/organizations/if5zbmju0mejbepuexct.png"
+        }
+      ],
+      "locations": ["Colombia"],
+      "remote": true,
+      "external": false,
+      "deadline": null,
+      "status": "open",
+      "compensation": {
+        "data": null,
+        "visible": false
+      },
+      "skills": [
+        {
+          "name": "Sales",
+          "experience": "potential-to-develop"
+        },
+        {
+          "name": "Customers",
+          "experience": "potential-to-develop"
+        },
+        {
+          "name": "Business",
+          "experience": "potential-to-develop"
+        }
+      ],
+      "members": [
+        {
+          "subjectId": "39744",
+          "name": "Luis Felipe Gomez Noy",
+          "username": "luisfgomeznoy",
+          "professionalHeadline": "Comercio internacional y finanzas",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/be602965d347a49ae963135065349c7386ba0022/profile_KjXuVjl.jpg",
+          "member": false,
+          "manager": true,
+          "poster": false,
+          "weight": 72.2114
+        },
+        {
+          "subjectId": "50406",
+          "name": "Diana Montoya",
+          "username": "diana_cujer",
+          "professionalHeadline": "Customer Success at Torre",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/329b49768e033b6550863462bfb9f3e5c2d12639/profile_mYTcFmi.jpg",
+          "member": false,
+          "manager": true,
+          "poster": false,
+          "weight": 1266.4763
+        },
+        {
+          "subjectId": "60578",
+          "name": "Lina María Uyasan Herrera",
+          "username": "linauyasan",
+          "professionalHeadline": "Freelance Recruiting Advisor",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/28ed6c2cd50254581245dda825b74eaa1b776f61/profile_gjN5HsT.jpg",
+          "member": true,
+          "manager": true,
+          "poster": false,
+          "weight": 0.0
+        },
+        {
+          "subjectId": "621774",
+          "name": "Maria Jose Gomez Noy",
+          "username": "majonoy",
+          "professionalHeadline": "Fashion Designer",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/d4546538de9d196bea4d901e7691c90b92432fa1/profile_XSJmeu3.JPG",
+          "member": false,
+          "manager": true,
+          "poster": false,
+          "weight": 0.0
+        },
+        {
+          "subjectId": "775233",
+          "name": "Adriana Restrepo",
+          "username": "adrianarestrepo",
+          "professionalHeadline": "Managing Director",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/71b405a7f459dadab032a3966580de0ba291b0ba/profile_2mrAvVv.jpg",
+          "member": true,
+          "manager": true,
+          "poster": true,
+          "weight": 0.0
+        }
+      ],
+      "questions": [
+        {
+          "id": "ZWXGe1r7",
+          "text": "El trabajo es remoto?",
+          "date": "2020-10-23T14:33:57.000Z"
+        },
+        {
+          "id": "OwGnGAW6",
+          "text": "Cual sería la modalidad de pago y a través de qué medio",
+          "date": "2020-10-31T13:47:08.000Z"
+        }
+      ],
+      "context": {
+        "signaled": []
+      },
+      "_meta": {
+        "rank": 1.0,
+        "scorer": {
+          "@type": "and",
+          "score": 1.0,
+          "and": [
+            {
+              "@type": "concrete",
+              "id": "completion",
+              "input": {
+                "criteria": null,
+                "opportunity": {
+                  "completion": 1.0
+                }
+              },
+              "score": 1.0
+            }
+          ]
+        },
+        "filter": null,
+        "boosters": ["status", "internal"]
+      }
+    },
+    {
+      "id": "xWpOQJrK",
+      "objective": "Product Designer",
+      "type": "freelance-gigs",
+      "organizations": [
+        {
+          "id": 496635,
+          "name": "Happify Health",
+          "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1600918440/origin/bio/organizations/Happify_Health_nkxuuz.png"
+        }
+      ],
+      "locations": [],
+      "remote": true,
+      "external": false,
+      "deadline": "2020-11-06T04:30:00.000Z",
+      "status": "open",
+      "compensation": {
+        "data": {
+          "code": "range",
+          "currency": "USD$",
+          "minAmount": 2500.0,
+          "maxAmount": 5000.0,
+          "periodicity": "monthly"
+        },
+        "visible": true
+      },
+      "skills": [
+        {
+          "name": "Product designer",
+          "experience": "5-plus-years"
+        },
+        {
+          "name": "Web Designer",
+          "experience": "5-plus-years"
+        },
+        {
+          "name": "UX Research",
+          "experience": "5-plus-years"
+        }
+      ],
+      "members": [
+        {
+          "subjectId": "144637",
+          "name": "Yuliana Velasquez Ramírez",
+          "username": "yulianavelasquezr",
+          "professionalHeadline": "Independent Recruiter Advisor.",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/da4a2c2dc317fc852cc4a59a943b2fc44d87e2a1/profile_rbJ9Jmm.jpg",
+          "member": true,
+          "manager": true,
+          "poster": true,
+          "weight": 613.849
+        },
+        {
+          "subjectId": null,
+          "name": "Tomer Ben-Kiki",
+          "username": "156295ac-448b-4ed2-9e76-e71a1c386036",
+          "professionalHeadline": "CEO",
+          "picture": "file: https://zapier.com/engine/hydrate/5827795/.eJx9jkuOgzAQRO_Sa4SBmBhziLkC8qf5JMYQu0MGRdx9jMR6pNrUU6mqvmBGNM_uiTu0dVMJIesMzOIJPXW0rwgt_EAGk4-kvMFustCKoi7lveIZ9BM623k1nzmLW9dPDlP8-VFhiNB-4eq4-Du4ZEaiNbaMWZerKZDSDnOzzCxXRMqMc9qOzPJSyjsXt6I2XOhCN33ZyBuvkrhFw3SCRakrFtH48PvY3B73zyvgFoPOH-uQ9gK-3hjpPDIjjUs6DwMSHNnp1cmv8_-UOPQDjdCWUhTHcfwBLf1l4A:1jiQkY:xFE3NADSdM1XzY951Ao37_oNHyk/\nfilename: secnrxjvlysywqrevsrb.jpg\nid: attTj9txFk96XQJcZ\nsize: 1970\nthumbnails: {'small': {'url': 'https://dl.airtable.com/.attachmentThumbnails/c533104e8e164b8279dbc1a53d5ba82b/aab4a172', 'width': 36, 'height': 36}, 'large': {'url': 'https://dl.airtable.com/.attachmentThumbnails/ff63b36d20372955686c2b6c7ff4b35c/59e2fd7a', 'width': 120, 'height': 120}, 'full': {'url': 'https://dl.airtable.com/.attachmentThumbnails/6d9315c0277a447ad1e2c4abae7490f6/0085d83d', 'width': 3000, 'height': 3000}}\ntype: image/jpeg\nurl: https://dl.airtable.com/.attachments/d4199647305c47b0b8f1893423424dec/b7b001b2/secnrxjvlysywqrevsrb.jpg",
+          "member": true,
+          "manager": false,
+          "poster": false,
+          "weight": 0.0
+        }
+      ],
+      "questions": [],
+      "context": {
+        "signaled": []
+      },
+      "_meta": {
+        "rank": 1.0,
+        "scorer": {
+          "@type": "and",
+          "score": 1.0,
+          "and": [
+            {
+              "@type": "concrete",
+              "id": "completion",
+              "input": {
+                "criteria": null,
+                "opportunity": {
+                  "completion": 1.0
+                }
+              },
+              "score": 1.0
+            }
+          ]
+        },
+        "filter": null,
+        "boosters": ["status", "internal"]
+      }
+    },
+    {
+      "id": "DWVqbmrj",
+      "objective": "Freelance Designer",
+      "type": "freelance-gigs",
+      "organizations": [
+        {
+          "id": 460835,
+          "name": "Atomic",
+          "picture": "https://torre-media.s3-us-west-2.amazonaws.com/Atomic.png"
+        }
+      ],
+      "locations": [],
+      "remote": true,
+      "external": false,
+      "deadline": "2020-11-12T04:30:00.000Z",
+      "status": "open",
+      "compensation": {
+        "data": {
+          "code": "range",
+          "currency": "USD$",
+          "minAmount": 45.0,
+          "maxAmount": 65.0,
+          "periodicity": "hourly"
+        },
+        "visible": true
+      },
+      "skills": [
+        {
+          "name": "Design",
+          "experience": "1-plus-year"
+        },
+        {
+          "name": "Adobe Creative Cloud",
+          "experience": "1-plus-year"
+        },
+        {
+          "name": "Sketch",
+          "experience": "1-plus-year"
+        },
+        {
+          "name": "Software design",
+          "experience": "1-plus-year"
+        }
+      ],
+      "members": [
+        {
+          "subjectId": "219073",
+          "name": "Mariajosé Gómez",
+          "username": "mariajgomezg1",
+          "professionalHeadline": "Independent recruiter",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/1cdf6057e2ce1359eecd943e3f78b670e3e9a49f/profile_RO5e3cU.jpg",
+          "member": true,
+          "manager": true,
+          "poster": true,
+          "weight": 0.0
+        },
+        {
+          "subjectId": null,
+          "name": "Jordan Kong",
+          "username": "eadc4c48-4799-498c-af44-d8bc1b5e9ab0",
+          "professionalHeadline": "Vice President",
+          "picture": "https://torre-media.s3-us-west-2.amazonaws.com/Jordan+Kong.jpg",
+          "member": true,
+          "manager": false,
+          "poster": false,
+          "weight": 0.0
+        }
+      ],
+      "questions": [],
+      "context": {
+        "signaled": []
+      },
+      "_meta": {
+        "rank": 1.0,
+        "scorer": {
+          "@type": "and",
+          "score": 1.0,
+          "and": [
+            {
+              "@type": "concrete",
+              "id": "completion",
+              "input": {
+                "criteria": null,
+                "opportunity": {
+                  "completion": 1.0
+                }
+              },
+              "score": 1.0
+            }
+          ]
+        },
+        "filter": null,
+        "boosters": ["status", "internal"]
+      }
+    },
+    {
+      "id": "NwqOBPr3",
+      "objective": "Freelance Remote Trending Tech Features Writer",
+      "type": "freelance-gigs",
+      "organizations": [
+        {
+          "id": 464180,
+          "name": "Valnet",
+          "picture": "https://torre-media.s3-us-west-2.amazonaws.com/Valnet.png"
+        }
+      ],
+      "locations": [],
+      "remote": true,
+      "external": false,
+      "deadline": null,
+      "status": "open",
+      "compensation": null,
+      "skills": [
+        {
+          "name": "Writing",
+          "experience": "1-plus-year"
+        },
+        {
+          "name": "Editing",
+          "experience": "1-plus-year"
+        }
+      ],
+      "members": [
+        {
+          "subjectId": "220920",
+          "name": "Sara Urrea",
+          "username": "saraurrea",
+          "professionalHeadline": "Independient Recruiter",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/71a79fb89138007815ea4a7de6bae667aa5dbc2c/profile_u2hT6s9.jpg",
+          "member": true,
+          "manager": true,
+          "poster": false,
+          "weight": 0.0
+        },
+        {
+          "subjectId": "221417",
+          "name": "Juan Camilo Martínez Benavides",
+          "username": "jcmartinezbenavides",
+          "professionalHeadline": "independent recruiter",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/d7edc20f641899ead6b615f7e46999c890436ec1/profile_GBznNun.jpg",
+          "member": true,
+          "manager": true,
+          "poster": true,
+          "weight": 0.0
+        }
+      ],
+      "questions": [
+        {
+          "id": "OdvgLMrj",
+          "text": "Hi, I am a content writer with an experience of almost 4 years. I am very much interested in this job.",
+          "date": "2020-09-01T17:44:05.000Z"
+        }
+      ],
+      "context": {
+        "signaled": []
+      },
+      "_meta": {
+        "rank": 1.0,
+        "scorer": {
+          "@type": "and",
+          "score": 1.0,
+          "and": [
+            {
+              "@type": "concrete",
+              "id": "completion",
+              "input": {
+                "criteria": null,
+                "opportunity": {
+                  "completion": 1.0
+                }
+              },
+              "score": 1.0
+            }
+          ]
+        },
+        "filter": null,
+        "boosters": ["status", "internal"]
+      }
+    },
+    {
+      "id": "JWO8X4wQ",
+      "objective": "Desarrollador .NET",
+      "type": "full-time-employment",
+      "organizations": [
+        {
+          "id": 495370,
+          "name": "Makers Solutions",
+          "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1600923720/origin/bio/organizations/Makers_okpnh5.png"
+        }
+      ],
+      "locations": [],
+      "remote": true,
+      "external": false,
+      "deadline": "2020-11-30T05:00:00.000Z",
+      "status": "open",
+      "compensation": {
+        "data": {
+          "code": "range",
+          "currency": "USD$",
+          "minAmount": 900.0,
+          "maxAmount": 1200.0,
+          "periodicity": "monthly"
+        },
+        "visible": true
+      },
+      "skills": [
+        {
+          "name": "Transact-SQL",
+          "experience": "3-plus-years"
+        },
+        {
+          "name": ".net core",
+          "experience": "potential-to-develop"
+        },
+        {
+          "name": "Pruebas unitarias",
+          "experience": "1-plus-year"
+        },
+        {
+          "name": "Servicios REST",
+          "experience": "2-plus-years"
+        },
+        {
+          "name": "Vue.js",
+          "experience": "potential-to-develop"
+        },
+        {
+          "name": "API GraphQL",
+          "experience": "potential-to-develop"
+        },
+        {
+          "name": "Servicios SOAP",
+          "experience": "2-plus-years"
+        },
+        {
+          "name": ".NET",
+          "experience": "3-plus-years"
+        },
+        {
+          "name": "SQL",
+          "experience": "3-plus-years"
+        }
+      ],
+      "members": [
+        {
+          "subjectId": "16180",
+          "name": "Maria Fernanda Mosquera Noy",
+          "username": "mafemosquera",
+          "professionalHeadline": "Associate Growth Marketer at Torre",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/7a895a95f077665ddd23fabe738f7a8d71a2e013/profile_tU68tmh.jpg",
+          "member": false,
+          "manager": true,
+          "poster": false,
+          "weight": 2040.6537
+        },
+        {
+          "subjectId": "37804",
+          "name": "Mariana Araujo",
+          "username": "MarianaAraujo",
+          "professionalHeadline": "Independent Recruiter Advisor",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/7d31412e11e46b27b99928cb51f9d1a3f9c46da2/profile_UldUyMI.jpg",
+          "member": false,
+          "manager": true,
+          "poster": false,
+          "weight": 0.0
+        },
+        {
+          "subjectId": "39744",
+          "name": "Luis Felipe Gomez Noy",
+          "username": "luisfgomeznoy",
+          "professionalHeadline": "Comercio internacional y finanzas",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/be602965d347a49ae963135065349c7386ba0022/profile_KjXuVjl.jpg",
+          "member": false,
+          "manager": true,
+          "poster": false,
+          "weight": 72.2113
+        },
+        {
+          "subjectId": "44621",
+          "name": "Jorge Carreto Bernal",
+          "username": "georgecarretto",
+          "professionalHeadline": "Platform Operations Freelancer - Costumer Service, Specialist I, Graphic Designer",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/03054609dfe764dfdb4c981e0c647ab1a753dc6c/profile_nFdZ3bN.jpg",
+          "member": false,
+          "manager": true,
+          "poster": false,
+          "weight": 19.7082
+        },
+        {
+          "subjectId": "50406",
+          "name": "Diana Montoya",
+          "username": "diana_cujer",
+          "professionalHeadline": "Customer Success at Torre",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/329b49768e033b6550863462bfb9f3e5c2d12639/profile_mYTcFmi.jpg",
+          "member": false,
+          "manager": true,
+          "poster": false,
+          "weight": 1266.4762
+        },
+        {
+          "subjectId": "107809",
+          "name": "Daniel Loaiza Arango",
+          "username": "daniel25",
+          "professionalHeadline": "CEO - MAKERS",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/ec7551dff10b04f9c59337114989f6f0cba20c95/profile_WWH0UvD.jpg",
+          "member": true,
+          "manager": true,
+          "poster": true,
+          "weight": 0.0
+        },
+        {
+          "subjectId": "150898",
+          "name": "Diego Figueroa Florez",
+          "username": "diego11",
+          "professionalHeadline": "Director de Proyectos - MAKERS",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/a60d2a68c3e0289b05fe83d82954e64e55e75921/profile_9bg1jDP.jpg",
+          "member": true,
+          "manager": true,
+          "poster": false,
+          "weight": 0.0
+        },
+        {
+          "subjectId": "163315",
+          "name": "Juan David Pinilla Boude",
+          "username": "jpinilla",
+          "professionalHeadline": "Freelance Recruiting Advisor",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/ec195af433c2879de35cb637ac4fbea97ac23cc2/profile_tn05IV2.jpg",
+          "member": false,
+          "manager": true,
+          "poster": false,
+          "weight": 0.0
+        },
+        {
+          "subjectId": "542820",
+          "name": "Andrés Julián Murillo Lopez",
+          "username": "ajulianmu",
+          "professionalHeadline": "Ingeniero de sistemas",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/444a47f144805cd645d6a337c595943e82d5aae9/profile_hAAwccF.jpg",
+          "member": true,
+          "manager": true,
+          "poster": false,
+          "weight": 0.0
+        },
+        {
+          "subjectId": "617990",
+          "name": "Alejandro Bastidas Ospina",
+          "username": "alejandrobastidas",
+          "professionalHeadline": "Desarrollador de software",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/1fcd5678613325d88445fe82212d22b731a307c2/profile_hTqc5AN.jpg",
+          "member": true,
+          "manager": true,
+          "poster": false,
+          "weight": 850.0
+        },
+        {
+          "subjectId": "621774",
+          "name": "Maria Jose Gomez Noy",
+          "username": "majonoy",
+          "professionalHeadline": "Fashion Designer",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/d4546538de9d196bea4d901e7691c90b92432fa1/profile_XSJmeu3.JPG",
+          "member": false,
+          "manager": true,
+          "poster": false,
+          "weight": 0.0
+        }
+      ],
+      "questions": [
+        {
+          "id": "8wDVqorl",
+          "text": "Desarrollo de software en .net core, preferiblemente con conocimiento en devops, patrones de diseño y principios SOLID.",
+          "date": "2020-10-05T21:49:08.000Z"
+        },
+        {
+          "id": "ed80MedX",
+          "text": "estoy con cerveceria nacional",
+          "date": "2020-10-27T21:59:10.000Z"
+        }
+      ],
+      "context": {
+        "signaled": []
+      },
+      "_meta": {
+        "rank": 1.0,
+        "scorer": {
+          "@type": "and",
+          "score": 1.0,
+          "and": [
+            {
+              "@type": "concrete",
+              "id": "completion",
+              "input": {
+                "criteria": null,
+                "opportunity": {
+                  "completion": 1.0
+                }
+              },
+              "score": 1.0
+            }
+          ]
+        },
+        "filter": null,
+        "boosters": ["status", "internal"]
+      }
+    },
+    {
+      "id": "8wD01owl",
+      "objective": "Technical Lead",
+      "type": "full-time-employment",
+      "organizations": [
+        {
+          "id": 501630,
+          "name": "Prometeo Soluciones",
+          "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1603026627/origin/bio/organizations/pzjpw8twzj3uujfcnlrp.jpg"
+        }
+      ],
+      "locations": [],
+      "remote": true,
+      "external": false,
+      "deadline": "2020-11-30T02:30:00.000Z",
+      "status": "open",
+      "compensation": {
+        "data": {
+          "code": "range",
+          "currency": "USD$",
+          "minAmount": 1000.0,
+          "maxAmount": 10000.0,
+          "periodicity": "monthly"
+        },
+        "visible": true
+      },
+      "skills": [
+        {
+          "name": "Developer",
+          "experience": "5-plus-years"
+        },
+        {
+          "name": "Java",
+          "experience": "potential-to-develop"
+        },
+        {
+          "name": "C++",
+          "experience": "potential-to-develop"
+        },
+        {
+          "name": "C#",
+          "experience": "potential-to-develop"
+        },
+        {
+          "name": "Javascript",
+          "experience": "potential-to-develop"
+        },
+        {
+          "name": "Objective C",
+          "experience": "potential-to-develop"
+        },
+        {
+          "name": "Python",
+          "experience": "potential-to-develop"
+        },
+        {
+          "name": "Go",
+          "experience": "potential-to-develop"
+        }
+      ],
+      "members": [
+        {
+          "subjectId": "621686",
+          "name": "lorena prego",
+          "username": "lorenaprego",
+          "professionalHeadline": "Dueño",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/10c540aff56be9de79b6cc421b5dedb43c3335e8/profile_AT1uIYQ.jpg",
+          "member": true,
+          "manager": true,
+          "poster": false,
+          "weight": 0.0
+        },
+        {
+          "subjectId": "761417",
+          "name": "Tania Aguirre",
+          "username": "taniaaguirre",
+          "professionalHeadline": "Ing. en Desarrollo e Innovación Empresarial",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/5a93857d6f3ddd7a916a918b1d6a4723495f1b94/profile_asSGNgD.jpg",
+          "member": true,
+          "manager": true,
+          "poster": false,
+          "weight": 850.0
+        },
+        {
+          "subjectId": "790759",
+          "name": "Micaela Bettosini",
+          "username": "micaelab",
+          "professionalHeadline": "Licenciada en Psicologia",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/fa26065121b7e46338d13f3d7ea1ebc01f93d08e/profile_v7aFFUH.jpg",
+          "member": true,
+          "manager": true,
+          "poster": false,
+          "weight": 0.0
+        },
+        {
+          "subjectId": "792595",
+          "name": "Rodrigo Paravizzo",
+          "username": "rodrigop",
+          "professionalHeadline": "Associate Recruiter",
+          "picture": null,
+          "member": true,
+          "manager": true,
+          "poster": true,
+          "weight": 0.0
+        }
+      ],
+      "questions": [],
+      "context": {
+        "signaled": []
+      },
+      "_meta": {
+        "rank": 1.0,
+        "scorer": {
+          "@type": "and",
+          "score": 1.0,
+          "and": [
+            {
+              "@type": "concrete",
+              "id": "completion",
+              "input": {
+                "criteria": null,
+                "opportunity": {
+                  "completion": 1.0
+                }
+              },
+              "score": 1.0
+            }
+          ]
+        },
+        "filter": null,
+        "boosters": ["status", "internal"]
+      }
+    },
+    {
+      "id": "Gdjv7ydj",
+      "objective": "Remote Freelance Car Writer",
+      "type": "freelance-gigs",
+      "organizations": [
+        {
+          "id": 464180,
+          "name": "Valnet",
+          "picture": "https://torre-media.s3-us-west-2.amazonaws.com/Valnet.png"
+        }
+      ],
+      "locations": [],
+      "remote": true,
+      "external": false,
+      "deadline": "2020-11-13T04:30:00.000Z",
+      "status": "open",
+      "compensation": {
+        "data": null,
+        "visible": false
+      },
+      "skills": [
+        {
+          "name": "Writer",
+          "experience": "1-plus-year"
+        },
+        {
+          "name": "Communication skills",
+          "experience": "1-plus-year"
+        },
+        {
+          "name": "Editorial",
+          "experience": "1-plus-year"
+        }
+      ],
+      "members": [
+        {
+          "subjectId": "220890",
+          "name": "Manuela Vargas Jaramillo",
+          "username": "mavaja0229",
+          "professionalHeadline": "Independent Recruiter",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/412e0b4173afac862c445c7e81dbb553469a081a/profile_1ob72Mv.jpg",
+          "member": false,
+          "manager": true,
+          "poster": true,
+          "weight": 0.0
+        },
+        {
+          "subjectId": null,
+          "name": "Sam Youssef",
+          "username": "e3e8a600-478b-4b4d-b38a-aa77b855af5d",
+          "professionalHeadline": "Founder and CEO",
+          "picture": "https://torre-media.s3-us-west-2.amazonaws.com/Sam+Youssef.jfif",
+          "member": true,
+          "manager": false,
+          "poster": false,
+          "weight": 0.0
+        }
+      ],
+      "questions": [],
+      "context": {
+        "signaled": []
+      },
+      "_meta": {
+        "rank": 1.0,
+        "scorer": {
+          "@type": "and",
+          "score": 1.0,
+          "and": [
+            {
+              "@type": "concrete",
+              "id": "completion",
+              "input": {
+                "criteria": null,
+                "opportunity": {
+                  "completion": 1.0
+                }
+              },
+              "score": 1.0
+            }
+          ]
+        },
+        "filter": null,
+        "boosters": ["status", "internal"]
+      }
+    },
+    {
+      "id": "ldE02ew7",
+      "objective": "Desarrollo Front-end con VUE.js",
+      "type": "freelance-gigs",
+      "organizations": [
+        {
+          "id": 497301,
+          "name": "Confidencial",
+          "picture": null
+        }
+      ],
+      "locations": [],
+      "remote": true,
+      "external": false,
+      "deadline": "2020-11-01T04:30:00.000Z",
+      "status": "open",
+      "compensation": {
+        "data": {
+          "code": "range",
+          "currency": "USD$",
+          "minAmount": 5.0,
+          "maxAmount": 8.0,
+          "periodicity": "hourly"
+        },
+        "visible": true
+      },
+      "skills": [
+        {
+          "name": "Documentación del proceso",
+          "experience": "2-plus-years"
+        },
+        {
+          "name": "Documentación",
+          "experience": "2-plus-years"
+        },
+        {
+          "name": "Vue.js",
+          "experience": "1-plus-year"
+        },
+        {
+          "name": "React.js",
+          "experience": "1-plus-year"
+        },
+        {
+          "name": "Angular",
+          "experience": "1-plus-year"
+        },
+        {
+          "name": "PWA",
+          "experience": "1-plus-year"
+        }
+      ],
+      "members": [
+        {
+          "subjectId": "39744",
+          "name": "Luis Felipe Gomez Noy",
+          "username": "luisfgomeznoy",
+          "professionalHeadline": "Comercio internacional y finanzas",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/be602965d347a49ae963135065349c7386ba0022/profile_KjXuVjl.jpg",
+          "member": false,
+          "manager": true,
+          "poster": false,
+          "weight": 72.2114
+        },
+        {
+          "subjectId": "50406",
+          "name": "Diana Montoya",
+          "username": "diana_cujer",
+          "professionalHeadline": "Customer Success at Torre",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/329b49768e033b6550863462bfb9f3e5c2d12639/profile_mYTcFmi.jpg",
+          "member": false,
+          "manager": true,
+          "poster": false,
+          "weight": 1266.4763
+        },
+        {
+          "subjectId": "60578",
+          "name": "Lina María Uyasan Herrera",
+          "username": "linauyasan",
+          "professionalHeadline": "Freelance Recruiting Advisor",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/28ed6c2cd50254581245dda825b74eaa1b776f61/profile_gjN5HsT.jpg",
+          "member": true,
+          "manager": true,
+          "poster": false,
+          "weight": 0.0
+        },
+        {
+          "subjectId": "495099",
+          "name": "David Alejandro Corredor",
+          "username": "dacorredor",
+          "professionalHeadline": "Web and Software Developer",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/a6305a5b8b489f7df6950c8a1692a19c2aa9faab/profile_oYMrmcU.jpeg",
+          "member": true,
+          "manager": true,
+          "poster": true,
+          "weight": 363.375
+        },
+        {
+          "subjectId": "759708",
+          "name": "Maria del Mar Martinez",
+          "username": "mariadmar97",
+          "professionalHeadline": "Diseñador de Medios Interactivos",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/bd22486824aef59208367094632a5863f22fffb5/profile_iBIyuYA.jpg",
+          "member": true,
+          "manager": true,
+          "poster": false,
+          "weight": 0.0
+        }
+      ],
+      "questions": [],
+      "context": {
+        "signaled": []
+      },
+      "_meta": {
+        "rank": 1.0,
+        "scorer": {
+          "@type": "and",
+          "score": 1.0,
+          "and": [
+            {
+              "@type": "concrete",
+              "id": "completion",
+              "input": {
+                "criteria": null,
+                "opportunity": {
+                  "completion": 1.0
+                }
+              },
+              "score": 1.0
+            }
+          ]
+        },
+        "filter": null,
+        "boosters": ["status", "internal"]
+      }
+    },
+    {
+      "id": "NrJkJPWD",
+      "objective": "Salesforce Consultant – Managed Services - Open to Full Remote (CST or EST)",
+      "type": "freelance-gigs",
+      "organizations": [
+        {
+          "id": 487377,
+          "name": "Fonteva",
+          "picture": "https://torre-media.s3-us-west-2.amazonaws.com/Fonteva.png"
+        }
+      ],
+      "locations": ["United States"],
+      "remote": true,
+      "external": false,
+      "deadline": "2020-11-24T04:30:00.000Z",
+      "status": "open",
+      "compensation": {
+        "data": {
+          "code": "range",
+          "currency": "USD$",
+          "minAmount": 59000.0,
+          "maxAmount": 127000.0,
+          "periodicity": "yearly"
+        },
+        "visible": true
+      },
+      "skills": [
+        {
+          "name": "Salesforce",
+          "experience": "2-plus-years"
+        },
+        {
+          "name": "Salesforce.com",
+          "experience": "2-plus-years"
+        },
+        {
+          "name": "IT",
+          "experience": "2-plus-years"
+        },
+        {
+          "name": "Sales",
+          "experience": "2-plus-years"
+        }
+      ],
+      "members": [
+        {
+          "subjectId": "219073",
+          "name": "Mariajosé Gómez",
+          "username": "mariajgomezg1",
+          "professionalHeadline": "Independent recruiter",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/1cdf6057e2ce1359eecd943e3f78b670e3e9a49f/profile_RO5e3cU.jpg",
+          "member": true,
+          "manager": true,
+          "poster": true,
+          "weight": 0.0
+        },
+        {
+          "subjectId": null,
+          "name": "Jerry Huskins",
+          "username": "47edda2b-a004-4ad8-93e9-6a977130c694",
+          "professionalHeadline": "CEO & Co-Founder",
+          "picture": "https://torre-media.s3-us-west-2.amazonaws.com/Jerry+Huskins.jpg",
+          "member": true,
+          "manager": false,
+          "poster": false,
+          "weight": 0.0
+        }
+      ],
+      "questions": [],
+      "context": {
+        "signaled": []
+      },
+      "_meta": {
+        "rank": 1.0,
+        "scorer": {
+          "@type": "and",
+          "score": 1.0,
+          "and": [
+            {
+              "@type": "concrete",
+              "id": "completion",
+              "input": {
+                "criteria": null,
+                "opportunity": {
+                  "completion": 1.0
+                }
+              },
+              "score": 1.0
+            }
+          ]
+        },
+        "filter": null,
+        "boosters": ["status", "internal"]
+      }
+    },
+    {
+      "id": "NwBE5xWb",
+      "objective": "Local Coordinator",
+      "type": "freelance-gigs",
+      "organizations": [
+        {
+          "id": 295133,
+          "name": "Foreign Links Around the Globe",
+          "picture": null
+        }
+      ],
+      "locations": ["Bloomington, IL, USA"],
+      "remote": false,
+      "external": false,
+      "deadline": null,
+      "status": "open",
+      "compensation": {
+        "data": {
+          "code": "range",
+          "currency": "USD$",
+          "minAmount": 100.0,
+          "maxAmount": 1000.0,
+          "periodicity": "monthly"
+        },
+        "visible": true
+      },
+      "skills": [
+        {
+          "name": "Communication",
+          "experience": "1-plus-year"
+        },
+        {
+          "name": "Adaptability",
+          "experience": "potential-to-develop"
+        },
+        {
+          "name": "Leadership",
+          "experience": "potential-to-develop"
+        },
+        {
+          "name": "Youth Engagement",
+          "experience": "potential-to-develop"
+        },
+        {
+          "name": "Outreach",
+          "experience": "1-plus-year"
+        },
+        {
+          "name": "Networking / Building Network",
+          "experience": "1-plus-year"
+        },
+        {
+          "name": "Mentoring",
+          "experience": "potential-to-develop"
+        }
+      ],
+      "members": [
+        {
+          "subjectId": "23020",
+          "name": "Daniela Botero",
+          "username": "danielabotero",
+          "professionalHeadline": "Customer Success at Torre",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/56370799eb942ef7bc8bf973a900b29e9ab64364/profile_x9pzrJW.jpg",
+          "member": false,
+          "manager": true,
+          "poster": false,
+          "weight": 539.4344
+        },
+        {
+          "subjectId": "44621",
+          "name": "Jorge Carreto Bernal",
+          "username": "georgecarretto",
+          "professionalHeadline": "Platform Operations Freelancer - Costumer Service, Specialist I, Graphic Designer",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/03054609dfe764dfdb4c981e0c647ab1a753dc6c/profile_nFdZ3bN.jpg",
+          "member": false,
+          "manager": true,
+          "poster": false,
+          "weight": 19.7082
+        },
+        {
+          "subjectId": "289986",
+          "name": "Stephanie",
+          "username": "sawalt",
+          "professionalHeadline": "Senior Support Specialist",
+          "picture": null,
+          "member": true,
+          "manager": true,
+          "poster": true,
+          "weight": 0.0
+        },
+        {
+          "subjectId": "290223",
+          "name": "Jenny Graves",
+          "username": "jgraves",
+          "professionalHeadline": "FLAG Chapter Director",
+          "picture": null,
+          "member": true,
+          "manager": false,
+          "poster": false,
+          "weight": 0.0
+        }
+      ],
+      "questions": [
+        {
+          "id": "Yd6NAOdp",
+          "text": "Buenas tardes, cuál es el valor que podría cobrar en dólares estadounidenses según mi trabajo y mi salario acá en Colombia, gracias",
+          "date": "2020-05-11T00:27:24.000Z"
+        },
+        {
+          "id": "VWMDvqrZ",
+          "text": "Hola estoy interesado en conocer más envíenme la información por favor",
+          "date": "2020-05-11T18:25:44.000Z"
+        },
+        {
+          "id": "2W1700dq",
+          "text": "Me gusta el trabajo, fui a rellenar la solicitud pero no me dejó por estar en costa Rica, hay modo de hacerlo desde casa???",
+          "date": "2020-05-12T17:41:38.000Z"
+        },
+        {
+          "id": "NwqVO7d3",
+          "text": "Hello good day, I am interested, I am from Venezuela works ?",
+          "date": "2020-07-30T22:01:31.000Z"
+        }
+      ],
+      "context": {
+        "signaled": []
+      },
+      "_meta": {
+        "rank": 1.0,
+        "scorer": {
+          "@type": "and",
+          "score": 1.0,
+          "and": [
+            {
+              "@type": "concrete",
+              "id": "completion",
+              "input": {
+                "criteria": null,
+                "opportunity": {
+                  "completion": 1.0
+                }
+              },
+              "score": 1.0
+            }
+          ]
+        },
+        "filter": null,
+        "boosters": ["status", "internal"]
+      }
+    },
+    {
+      "id": "2W16OYwq",
+      "objective": "Technical Product Manager",
+      "type": "full-time-employment",
+      "organizations": [
+        {
+          "id": 485847,
+          "name": "ThreatConnect, Inc.",
+          "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1600920180/origin/bio/organizations/ThreatConnect_2C_Inc__LOGO_tpaubc.jpg"
+        }
+      ],
+      "locations": ["United States"],
+      "remote": true,
+      "external": false,
+      "deadline": "2020-11-06T04:30:00.000Z",
+      "status": "open",
+      "compensation": {
+        "data": {
+          "code": "range",
+          "currency": "USD$",
+          "minAmount": 100000.0,
+          "maxAmount": 140000.0,
+          "periodicity": "yearly"
+        },
+        "visible": true
+      },
+      "skills": [
+        {
+          "name": "Product management",
+          "experience": "5-plus-years"
+        },
+        {
+          "name": "Cyber security",
+          "experience": "5-plus-years"
+        },
+        {
+          "name": "JSON",
+          "experience": "5-plus-years"
+        },
+        {
+          "name": "API",
+          "experience": "5-plus-years"
+        }
+      ],
+      "members": [
+        {
+          "subjectId": "219073",
+          "name": "Mariajosé Gómez",
+          "username": "mariajgomezg1",
+          "professionalHeadline": "Independent recruiter",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/1cdf6057e2ce1359eecd943e3f78b670e3e9a49f/profile_RO5e3cU.jpg",
+          "member": false,
+          "manager": true,
+          "poster": true,
+          "weight": 0.0
+        },
+        {
+          "subjectId": null,
+          "name": "Adam Vincent",
+          "username": "7807b4e9-a371-4918-aaf8-047168b4bd8b",
+          "professionalHeadline": "CEO",
+          "picture": "https://torre-media.s3-us-west-2.amazonaws.com/Adam+Vincent.jpg",
+          "member": true,
+          "manager": false,
+          "poster": false,
+          "weight": 0.0
+        }
+      ],
+      "questions": [],
+      "context": {
+        "signaled": []
+      },
+      "_meta": {
+        "rank": 24.0,
+        "scorer": {
+          "@type": "and",
+          "score": 0.9375,
+          "and": [
+            {
+              "@type": "concrete",
+              "id": "completion",
+              "input": {
+                "criteria": null,
+                "opportunity": {
+                  "completion": 0.9375
+                }
+              },
+              "score": 0.9375
+            }
+          ]
+        },
+        "filter": null,
+        "boosters": ["status", "internal"]
+      }
+    },
+    {
+      "id": "lWgmRAd6",
+      "objective": "Senior Game Economy Designer - Remote Work location",
+      "type": "full-time-employment",
+      "organizations": [
+        {
+          "id": 471031,
+          "name": "Zynga",
+          "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1600925880/origin/bio/organizations/Zynga_tkxwoa.png"
+        }
+      ],
+      "locations": ["United States"],
+      "remote": true,
+      "external": false,
+      "deadline": "2020-11-16T04:30:00.000Z",
+      "status": "open",
+      "compensation": {
+        "data": {
+          "code": "range",
+          "currency": "USD$",
+          "minAmount": 60000.0,
+          "maxAmount": 90000.0,
+          "periodicity": "yearly"
+        },
+        "visible": true
+      },
+      "skills": [
+        {
+          "name": "Mobile Game Development",
+          "experience": "5-plus-years"
+        },
+        {
+          "name": "Design",
+          "experience": "5-plus-years"
+        },
+        {
+          "name": "Critical thinking",
+          "experience": "5-plus-years"
+        }
+      ],
+      "members": [
+        {
+          "subjectId": "46221",
+          "name": "Esteban Arriaga",
+          "username": "Esteban-Arriaga",
+          "professionalHeadline": "Independent Recruiter",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/761896038054934fb1480ba1f60f7fcada1eb486/profile_2Yq7yVv.jpeg",
+          "member": true,
+          "manager": true,
+          "poster": true,
+          "weight": 0.0
+        },
+        {
+          "subjectId": null,
+          "name": "Frank D. Gibeau",
+          "username": "e91bf220-5a02-45c6-9dbe-8cb7c6e78232",
+          "professionalHeadline": null,
+          "picture": null,
+          "member": true,
+          "manager": false,
+          "poster": false,
+          "weight": 0.0
+        }
+      ],
+      "questions": [],
+      "context": {
+        "signaled": []
+      },
+      "_meta": {
+        "rank": 24.0,
+        "scorer": {
+          "@type": "and",
+          "score": 0.9375,
+          "and": [
+            {
+              "@type": "concrete",
+              "id": "completion",
+              "input": {
+                "criteria": null,
+                "opportunity": {
+                  "completion": 0.9375
+                }
+              },
+              "score": 0.9375
+            }
+          ]
+        },
+        "filter": null,
+        "boosters": ["status", "internal"]
+      }
+    },
+    {
+      "id": "8wDvqorl",
+      "objective": "Director Sales Engagement",
+      "type": "full-time-employment",
+      "organizations": [
+        {
+          "id": 487221,
+          "name": "2U",
+          "picture": "https://torre-media.s3-us-west-2.amazonaws.com/2U.png"
+        }
+      ],
+      "locations": ["United States"],
+      "remote": true,
+      "external": false,
+      "deadline": "2020-11-23T04:30:00.000Z",
+      "status": "open",
+      "compensation": {
+        "data": {
+          "code": "range",
+          "currency": "USD$",
+          "minAmount": 80000.0,
+          "maxAmount": 150000.0,
+          "periodicity": "yearly"
+        },
+        "visible": true
+      },
+      "skills": [
+        {
+          "name": "Sales Management",
+          "experience": "10-plus-years"
+        },
+        {
+          "name": "Proposal Management",
+          "experience": "10-plus-years"
+        },
+        {
+          "name": "Business Development",
+          "experience": "10-plus-years"
+        }
+      ],
+      "members": [
+        {
+          "subjectId": "144637",
+          "name": "Yuliana Velasquez Ramírez",
+          "username": "yulianavelasquezr",
+          "professionalHeadline": "Independent Recruiter Advisor.",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/da4a2c2dc317fc852cc4a59a943b2fc44d87e2a1/profile_rbJ9Jmm.jpg",
+          "member": true,
+          "manager": true,
+          "poster": true,
+          "weight": 613.849
+        },
+        {
+          "subjectId": null,
+          "name": "Chip Paucek",
+          "username": "25dfc7d4-ee2b-4c93-a04b-6f1d6be55623",
+          "professionalHeadline": "CEO",
+          "picture": "https://torre-media.s3-us-west-2.amazonaws.com/ChipPaucek.jpg",
+          "member": true,
+          "manager": false,
+          "poster": false,
+          "weight": 0.0
+        }
+      ],
+      "questions": [],
+      "context": {
+        "signaled": []
+      },
+      "_meta": {
+        "rank": 24.0,
+        "scorer": {
+          "@type": "and",
+          "score": 0.9375,
+          "and": [
+            {
+              "@type": "concrete",
+              "id": "completion",
+              "input": {
+                "criteria": null,
+                "opportunity": {
+                  "completion": 0.9375
+                }
+              },
+              "score": 0.9375
+            }
+          ]
+        },
+        "filter": null,
+        "boosters": ["status", "internal"]
+      }
+    },
+    {
+      "id": "Vro3xkry",
+      "objective": "DevOps Engineer",
+      "type": "full-time-employment",
+      "organizations": [
+        {
+          "id": 460703,
+          "name": "Evercommerce",
+          "picture": "https://torre-media.s3-us-west-2.amazonaws.com/EverCommerce.png"
+        }
+      ],
+      "locations": ["United States"],
+      "remote": true,
+      "external": false,
+      "deadline": "2020-11-09T04:30:00.000Z",
+      "status": "open",
+      "compensation": {
+        "data": {
+          "code": "range",
+          "currency": "USD$",
+          "minAmount": 90000.0,
+          "maxAmount": 125000.0,
+          "periodicity": "yearly"
+        },
+        "visible": true
+      },
+      "skills": [
+        {
+          "name": "DevOps",
+          "experience": "3-plus-years"
+        },
+        {
+          "name": "AWS",
+          "experience": "3-plus-years"
+        },
+        {
+          "name": "Octopus Deploy",
+          "experience": "3-plus-years"
+        },
+        {
+          "name": "Python",
+          "experience": "3-plus-years"
+        }
+      ],
+      "members": [
+        {
+          "subjectId": "219073",
+          "name": "Mariajosé Gómez",
+          "username": "mariajgomezg1",
+          "professionalHeadline": "Independent recruiter",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/1cdf6057e2ce1359eecd943e3f78b670e3e9a49f/profile_RO5e3cU.jpg",
+          "member": true,
+          "manager": true,
+          "poster": true,
+          "weight": 0.0
+        },
+        {
+          "subjectId": null,
+          "name": "Eric Remer",
+          "username": "49ebcde5-0a0f-46e1-bd45-494ff50bf73f",
+          "professionalHeadline": "CEO",
+          "picture": "https://torre-media.s3-us-west-2.amazonaws.com/Eric+Remer.jpg",
+          "member": true,
+          "manager": false,
+          "poster": false,
+          "weight": 0.0
+        }
+      ],
+      "questions": [],
+      "context": {
+        "signaled": []
+      },
+      "_meta": {
+        "rank": 24.0,
+        "scorer": {
+          "@type": "and",
+          "score": 0.9375,
+          "and": [
+            {
+              "@type": "concrete",
+              "id": "completion",
+              "input": {
+                "criteria": null,
+                "opportunity": {
+                  "completion": 0.9375
+                }
+              },
+              "score": 0.9375
+            }
+          ]
+        },
+        "filter": null,
+        "boosters": ["status", "internal"]
+      }
+    },
+    {
+      "id": "6WZEzAr1",
+      "objective": "Senior Recruiter",
+      "type": "full-time-employment",
+      "organizations": [
+        {
+          "id": 494249,
+          "name": "Dialpad",
+          "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1600930140/origin/bio/organizations/Dialpad_efminw.jpg"
+        }
+      ],
+      "locations": ["India"],
+      "remote": true,
+      "external": false,
+      "deadline": "2020-11-24T04:30:00.000Z",
+      "status": "open",
+      "compensation": {
+        "data": {
+          "code": "range",
+          "currency": "INRर",
+          "minAmount": 478380.0,
+          "maxAmount": 480380.0,
+          "periodicity": "yearly"
+        },
+        "visible": true
+      },
+      "skills": [
+        {
+          "name": "Recruiter",
+          "experience": "5-plus-years"
+        },
+        {
+          "name": "Recruitment",
+          "experience": "5-plus-years"
+        },
+        {
+          "name": "Human Resources",
+          "experience": "5-plus-years"
+        }
+      ],
+      "members": [
+        {
+          "subjectId": "219073",
+          "name": "Mariajosé Gómez",
+          "username": "mariajgomezg1",
+          "professionalHeadline": "Independent recruiter",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/1cdf6057e2ce1359eecd943e3f78b670e3e9a49f/profile_RO5e3cU.jpg",
+          "member": true,
+          "manager": true,
+          "poster": true,
+          "weight": 0.0
+        },
+        {
+          "subjectId": null,
+          "name": "Craig Walker",
+          "username": "84178082-a1d3-4d7b-8bfd-b1592c234549",
+          "professionalHeadline": "CEO",
+          "picture": "https://torre-media.s3-us-west-2.amazonaws.com/34fe44bac2f5d5dd0890dc4ed70357bc_400x400.jpeg",
+          "member": true,
+          "manager": false,
+          "poster": false,
+          "weight": 0.0
+        }
+      ],
+      "questions": [],
+      "context": {
+        "signaled": []
+      },
+      "_meta": {
+        "rank": 24.0,
+        "scorer": {
+          "@type": "and",
+          "score": 0.9375,
+          "and": [
+            {
+              "@type": "concrete",
+              "id": "completion",
+              "input": {
+                "criteria": null,
+                "opportunity": {
+                  "completion": 0.9375
+                }
+              },
+              "score": 0.9375
+            }
+          ]
+        },
+        "filter": null,
+        "boosters": ["status", "internal"]
+      }
+    },
+    {
+      "id": "KWNoJ7wO",
+      "objective": "Field Marketing Specialist",
+      "type": "full-time-employment",
+      "organizations": [
+        {
+          "id": 497393,
+          "name": "Curriculum Associates",
+          "picture": "https://torre-media.s3-us-west-2.amazonaws.com/Curriculum+Associates.png"
+        }
+      ],
+      "locations": ["United States"],
+      "remote": true,
+      "external": false,
+      "deadline": "2020-11-15T04:30:00.000Z",
+      "status": "open",
+      "compensation": {
+        "data": {
+          "code": "range",
+          "currency": "USD$",
+          "minAmount": 35000.0,
+          "maxAmount": 100000.0,
+          "periodicity": "yearly"
+        },
+        "visible": true
+      },
+      "skills": [
+        {
+          "name": "Marketing",
+          "experience": "1-plus-year"
+        },
+        {
+          "name": "Communications",
+          "experience": "1-plus-year"
+        },
+        {
+          "name": "Business",
+          "experience": "1-plus-year"
+        }
+      ],
+      "members": [
+        {
+          "subjectId": "220890",
+          "name": "Manuela Vargas Jaramillo",
+          "username": "mavaja0229",
+          "professionalHeadline": "Independent Recruiter",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/412e0b4173afac862c445c7e81dbb553469a081a/profile_1ob72Mv.jpg",
+          "member": true,
+          "manager": true,
+          "poster": true,
+          "weight": 0.0
+        },
+        {
+          "subjectId": null,
+          "name": "Rob Waldron",
+          "username": "f74cb281-5a86-4f7d-8b27-6574356305d5",
+          "professionalHeadline": "CEO",
+          "picture": "https://torre-media.s3-us-west-2.amazonaws.com/Rob+Waldron.jpg",
+          "member": true,
+          "manager": false,
+          "poster": false,
+          "weight": 0.0
+        }
+      ],
+      "questions": [],
+      "context": {
+        "signaled": []
+      },
+      "_meta": {
+        "rank": 24.0,
+        "scorer": {
+          "@type": "and",
+          "score": 0.9375,
+          "and": [
+            {
+              "@type": "concrete",
+              "id": "completion",
+              "input": {
+                "criteria": null,
+                "opportunity": {
+                  "completion": 0.9375
+                }
+              },
+              "score": 0.9375
+            }
+          ]
+        },
+        "filter": null,
+        "boosters": ["status", "internal"]
+      }
+    },
+    {
+      "id": "JWO36XWQ",
+      "objective": "Paid Search Strategist",
+      "type": "full-time-employment",
+      "organizations": [
+        {
+          "id": 460703,
+          "name": "Evercommerce",
+          "picture": "https://torre-media.s3-us-west-2.amazonaws.com/EverCommerce.png"
+        }
+      ],
+      "locations": ["United States"],
+      "remote": true,
+      "external": false,
+      "deadline": "2020-11-08T04:30:00.000Z",
+      "status": "open",
+      "compensation": {
+        "data": {
+          "code": "range",
+          "currency": "USD$",
+          "minAmount": 40000.0,
+          "maxAmount": 73000.0,
+          "periodicity": "yearly"
+        },
+        "visible": true
+      },
+      "skills": [
+        {
+          "name": "SEM",
+          "experience": "1-plus-year"
+        },
+        {
+          "name": "Search Engine Marketing (SEM)",
+          "experience": "1-plus-year"
+        },
+        {
+          "name": "B2B",
+          "experience": "1-plus-year"
+        },
+        {
+          "name": "Marketing",
+          "experience": "1-plus-year"
+        }
+      ],
+      "members": [
+        {
+          "subjectId": "219073",
+          "name": "Mariajosé Gómez",
+          "username": "mariajgomezg1",
+          "professionalHeadline": "Independent recruiter",
+          "picture": "https://starrgate.s3.amazonaws.com:443/users/1cdf6057e2ce1359eecd943e3f78b670e3e9a49f/profile_RO5e3cU.jpg",
+          "member": false,
+          "manager": true,
+          "poster": true,
+          "weight": 0.0
+        },
+        {
+          "subjectId": null,
+          "name": "Eric Remer",
+          "username": "49ebcde5-0a0f-46e1-bd45-494ff50bf73f",
+          "professionalHeadline": "CEO",
+          "picture": "https://torre-media.s3-us-west-2.amazonaws.com/Eric+Remer.jpg",
+          "member": true,
+          "manager": false,
+          "poster": false,
+          "weight": 0.0
+        }
+      ],
+      "questions": [],
+      "context": {
+        "signaled": []
+      },
+      "_meta": {
+        "rank": 24.0,
+        "scorer": {
+          "@type": "and",
+          "score": 0.9375,
+          "and": [
+            {
+              "@type": "concrete",
+              "id": "completion",
+              "input": {
+                "criteria": null,
+                "opportunity": {
+                  "completion": 0.9375
+                }
+              },
+              "score": 0.9375
+            }
+          ]
+        },
+        "filter": null,
+        "boosters": ["status", "internal"]
+      }
+    }
+  ],
+  "size": 20,
+  "total": 51437
+}

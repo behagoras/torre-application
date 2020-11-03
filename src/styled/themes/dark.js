@@ -1,17 +1,26 @@
 const dark = {
   title: 'dark',
   space: 8,
+  iconSize: 24,
+  cardWidth: 339.5,
   colors: {
-    primary_color: '#121D3D',
-    secondary_color: '#12FB49',
-    miscellaneous_color: '#03091F',
-    actionOne_color: '#33B13A',
-    actionTwo_color: '#ED473F',
-    text_color: '#FFFFFF',
-    border_color: '#9E9EA6',
+    backgroundMain: '#010101',
+    accent: '#CDDC39',
+    text: 'rgba(255, 255, 255, 0.90)',
+
+    backgroundCard: '#27292D',
+    textButton: 'rgba(0, 0, 0, 0.87)',
+    textButtonInverted: '#ffffff',
+    textCardHard: 'rgba(255, 255, 255, 0.87)',
+    textCardLow: 'rgba(255, 255, 255, 0.65)',
+
+    // white90: 'rgba(255, 255, 255, 0.90)',
+    // white16: 'rgba(255, 255, 255, 0.16)',
+    gray: '#383B40',
+    // lightGray: 'hsla(0,0%,100%,.06)',
   },
   fonts: {
-    Lato: '"Lato", "sans-serif"',
+    main: '"Muli", "Helvetica", "Arial", "sans-serif"',
   },
 }
 

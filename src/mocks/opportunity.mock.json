@@ -1,0 +1,288 @@
+{
+  "attachments": [{
+    "resource": "cover",
+    "address": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1602023417/origin/opportunities/ThreatConnect_Inc._cqqcgw.jpg",
+    "path": "v1602023417/origin/opportunities/ThreatConnect_Inc._cqqcgw.jpg",
+    "caption": ""
+  }],
+  "boardVersion": 1,
+  "locale": "en",
+  "objective": "Regional Sales Manager, North Central",
+  "stats": {
+    "finishedApplications": 0
+  },
+  "review": "approved",
+  "draft": null,
+  "members": [{
+      "id": "2W1P68ar",
+      "person": {
+        "id": "8W34RDnw",
+        "username": "7807b4e9-a371-4918-aaf8-047168b4bd8b",
+        "name": "Adam Vincent",
+        "hasEmail": false,
+        "professionalHeadline": "CEO",
+        "picture": "https://torre-media.s3-us-west-2.amazonaws.com/Adam+Vincent.jpg",
+        "hasBio": true,
+        "bioCompletion": 0,
+        "weight": 0,
+        "verified": false
+      },
+      "manager": false,
+      "poster": false,
+      "member": true,
+      "status": "pending",
+      "visible": true,
+      "screeningQuestionsTipClosed": false
+    },
+    {
+      "id": "qdPxq0nd",
+      "person": {
+        "id": "Nwq2VERd",
+        "username": "mariajgomezg1",
+        "name": "Mariajosé Gómez",
+        "hasEmail": false,
+        "professionalHeadline": "Independent recruiter",
+        "picture": "https://starrgate.s3.amazonaws.com:443/users/1cdf6057e2ce1359eecd943e3f78b670e3e9a49f/profile_RO5e3cU.jpg",
+        "pictureThumbnail": "https://starrgate.s3.amazonaws.com:443/CACHE/images/users/1cdf6057e2ce1359eecd943e3f78b670e3e9a49f/profile_RO5e3cU/8b4e336b02c86f41e49c6e7af765abf2.jpg",
+        "hasBio": true,
+        "bioCompletion": 0.8462,
+        "weight": 0,
+        "verified": true,
+        "subjectId": 219073
+      },
+      "manager": true,
+      "poster": true,
+      "member": false,
+      "status": "accepted",
+      "visible": false,
+      "screeningQuestionsTipClosed": false
+    }
+  ],
+  "details": [{
+      "code": "benefits",
+      "content": "You get to work with big name organizations and solve critical problems"
+    },
+    {
+      "code": "benefits",
+      "content": "Great corporate benefits"
+    },
+    {
+      "code": "benefits",
+      "content": "Fun events and campaigns"
+    },
+    {
+      "code": "benefits",
+      "content": "10 Paid Federal Holidays"
+    },
+    {
+      "code": "benefits",
+      "content": "Accrued Paid Time Off (PTO) for vacation/sick, time"
+    },
+    {
+      "code": "benefits",
+      "content": "Your birthday off"
+    },
+    {
+      "code": "benefits",
+      "content": "Employee recognition program with quarterly awards"
+    },
+    {
+      "code": "benefits",
+      "content": "Employee referral program"
+    },
+    {
+      "code": "benefits",
+      "content": "Military leave options available"
+    },
+    {
+      "code": "benefits",
+      "content": "Quarterly events with your geographic team"
+    },
+    {
+      "code": "benefits",
+      "content": "Annual company party"
+    },
+    {
+      "code": "benefits",
+      "content": "MEDICAL PREMIUM FOR INDIVIDUALS AND FAMILIES ARE 100% COVERED"
+    },
+    {
+      "code": "benefits",
+      "content": "Prescription drug coverage"
+    },
+    {
+      "code": "benefits",
+      "content": "Dental coverage"
+    },
+    {
+      "code": "benefits",
+      "content": "Vision coverage"
+    },
+    {
+      "code": "benefits",
+      "content": "Company-paid short term and long term disability"
+    },
+    {
+      "code": "benefits",
+      "content": "Company-paid insurance and AD&D coverage"
+    },
+    {
+      "code": "benefits",
+      "content": "Pet Insurance"
+    },
+    {
+      "code": "benefits",
+      "content": "401K retirement savings plan with company matching program up to 6%"
+    },
+    {
+      "code": "benefits",
+      "content": "Health Savings Account"
+    },
+    {
+      "code": "benefits",
+      "content": "Flexible Spending Accounts (medical, dependent care, transit and parking)"
+    },
+    {
+      "code": "benefits",
+      "content": "Paid Parental Leave"
+    },
+    {
+      "code": "benefits",
+      "content": "Paid Bereavement Leave"
+    },
+    {
+      "code": "stock-compensations",
+      "content": "Favorable commission"
+    },
+    {
+      "code": "stock-compensations",
+      "content": "Education reimbursement program for job-related college courses and professional training"
+    },
+    {
+      "code": "stock-compensations",
+      "content": "Cell phone stipend"
+    },
+    {
+      "code": "reason",
+      "content": "We are looking for a seasoned field sales professional to join the ThreatConnect Regional Sales Manager team. Cyber threats are ever present and constantly evolving, leaving major companies all over the world at risk. This is where ThreatConnect steps in. If you’re interested in having a real impact on the security landscape of these companies by selling an intelligence and innovative product, this is the role for you. ThreatConnect is experiencing rapid growth, fueled by our market-leading solutions and experienced sales team. This position reports directly to the Senior Director of Commercial Sales."
+    },
+    {
+      "code": "responsibilities",
+      "content": "• Full responsibility for driving revenue in your region, with strong focus on net-new customers\n• Identify, quantify, and develop new opportunities through prospecting and networking\n• Manage and maintain your territory’s sales pipeline and target key accounts and vertical markets\n• Consistently achieve assigned quarterly and annual sales targets\n• Provide accurate sales forecasts\n• Stay abreast of competitive intelligence and provide feedback for executive management\n• Aptitude of the company’s solutions and ability to communicate value proposition to clients"
+    },
+    {
+      "code": "requirements",
+      "content": "• The ability to take a consultative style when presenting ideas and products\n• Competency with sales tracking tools\n• Outstanding oral and written communication skills\n• Must be detail oriented and capable of accurate work with minimal supervision\n• The ability to travel 25% of the time\n• Eligible candidates should be based in the Chicago area\n• Added bonuses if you have technical aptitude"
+    },
+    {
+      "code": "challenges",
+      "content": "On day one we'll expect you to:\n• Understand the cybersecurity industry and identify where threat intelligence, security operations, and incident response fit within it\n• Employ consultative value selling approach - engaging, inquisitive, and articulate\n• Strong qualification and problem-solving skills\n• Experience leading complex sales cycles with large enterprise organizations involving leadership and a diverse set of stakeholders\n• Aptitude doing a high-level, overview demo\n• Pipeline management and forecasting\n\nAt 3 months we’ll expect you to:\n• Clearly and confidently communicate ThreatConnect’s value proposition and understand the buyer profile’s challenges\n• Qualify opportunities\n• Produce a basic, high-level overview demo\n• Work with your Sales Development counterpart to develop and begin to execute a business development strategy for your region\n• Work with your Channel Sales counterpart to connect with your reseller counterparts across your region\n\nAt 6 months we’ll expect you to:\n• Create and continue to build a qualified pipeline\n• Develop channel relationships in your region\n• Move opportunities to and through technical engagement\n\nAt 12 months we’ll expect you to:\n• Close new logo business and create a deep and qualified pipeline\n• Strong and efficient pipeline management\n• Do the above with minimal guidance"
+    },
+    {
+      "code": "career-path",
+      "content": "• Bachelor’s Degree and 5+ years of field sales experience with enterprise security software (preferably in TI, SecOps, IR, and Risk domains of InfoSec)\n• Experience with modern sales strategies"
+    },
+    {
+      "code": "organizations",
+      "content": "• Designed by analysts but built for the entire team (security operations, threat intelligence, incident response and security leadership), ThreatConnect’s intelligence-driven security operations platform is the only solution available today with intelligence, automation, analytics, and workflows in a single platform. Centralize your intelligence, establish process consistency, scale operations, and measure your effectiveness in one place. To learn more about our threat intelligence platform (TIP) or security orchestration, automation, and response (SOAR) solutions, visit ThreatConnect.com."
+    },
+    {
+      "code": "team-culture",
+      "content": "Our team emphasizes:\n• Integrity\n• Collaboration\n• Proactiveness\n• Innovation\n• Drive"
+    },
+    {
+      "code": "additional",
+      "content": "In this role you'll get:\n• Proactively and creatively prospect to hunt for new logo business\n• Work intimately with large enterprise organizations to understand their challenges and harmonize the solution that fits their goals\n• Conduct the entire sales cycle from qualification to close\n• Work with the sales development and channel teams to optimize your region’s business development strategy\n• Work with the Sales Engineering team through technical engagements\n• Collaborate with your peers across the Sales and Marketing team for training, resources, and coaching"
+    }
+  ],
+  "id": "8wD6yArl",
+  "place": {
+    "remote": true,
+    "anywhere": false,
+    "timezone": false,
+    "location": [{
+      "id": "United States",
+      "latitude": 37.09024,
+      "longitude": -95.712891,
+      "serpData": "{\"@type\": \"PostalAddress\", \"postalCode\": \"67301\", \"addressRegion\": \"Kansas\", \"streetAddress\": \"Estate Enighed 5000\", \"addressCountry\": \"United States\", \"addressLocality\": \"Montgomery County\"}"
+    }]
+  },
+  "deadline": "2020-11-06T04:30:00Z",
+  "slug": "threatconnect-inc-regional-sales-manager-north-central-10",
+  "owner": {
+    "id": "Nwq2VERd",
+    "username": "mariajgomezg1",
+    "name": "Mariajosé Gómez",
+    "hasEmail": false,
+    "professionalHeadline": "Independent recruiter",
+    "picture": "https://starrgate.s3.amazonaws.com:443/users/1cdf6057e2ce1359eecd943e3f78b670e3e9a49f/profile_RO5e3cU.jpg",
+    "pictureThumbnail": "https://starrgate.s3.amazonaws.com:443/CACHE/images/users/1cdf6057e2ce1359eecd943e3f78b670e3e9a49f/profile_RO5e3cU/8b4e336b02c86f41e49c6e7af765abf2.jpg",
+    "hasBio": true,
+    "bioCompletion": 0.8462,
+    "weight": 0,
+    "verified": true,
+    "subjectId": 219073
+  },
+  "completion": 1,
+  "agreement": {
+    "type": "employment-contract"
+  },
+  "languages": [{
+    "language": {
+      "code": "en",
+      "name": "English"
+    },
+    "fluency": "fully-fluent"
+  }],
+  "created": "2020-10-06T22:34:32Z",
+  "crawled": true,
+  "opportunity": "employee",
+  "active": true,
+  "commitment": {
+    "code": "full-time",
+    "hours": 0
+  },
+  "stableOn": "2020-10-06T23:34:32Z",
+  "strengths": [{
+      "id": "2W1R292w",
+      "code": 33787,
+      "name": "Sales",
+      "experience": "5-plus-years"
+    },
+    {
+      "id": "NwqbVnQd",
+      "code": 52301,
+      "name": "Software Security",
+      "experience": "5-plus-years"
+    },
+    {
+      "id": "8wDompoW",
+      "code": 191,
+      "name": "Consulting",
+      "experience": "5-plus-years"
+    },
+    {
+      "id": "ed8m2Klr",
+      "code": 55269,
+      "name": "Communication skills",
+      "experience": "5-plus-years"
+    }
+  ],
+  "organizations": [{
+    "id": 485847,
+    "name": "ThreatConnect, Inc.",
+    "size": 6500,
+    "picture": "https://res.cloudinary.com/torre-technologies-co/image/upload/v1600920180/origin/bio/organizations/ThreatConnect_2C_Inc__LOGO_tpaubc.jpg"
+  }],
+  "compensation": {
+    "code": "range",
+    "currency": "USD$",
+    "estimate": true,
+    "minAmount": 55000,
+    "maxAmount": 120000,
+    "periodicity": "hourly",
+    "visible": true
+  },
+  "openGraph": "https://hcti.io/v1/image/9623ceac-2618-4273-9af5-9e9154abcac9",
+  "status": "open"
+}

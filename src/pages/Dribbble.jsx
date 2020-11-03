@@ -13,8 +13,6 @@ export default function Dribbble() {
   const { code = '' } = queryString.parse(location.search)
   const [data] = useGetDribbbleAuthToken(code)
   const callbackUrl = `https://dribbble.com/oauth/authorize?client_id=${clientId}&redirect_uri=${redirectUri}&scope=public&state=246810`
-  console.log('Dribbble -> callbackUrl', callbackUrl)
-  console.log('Dribbble -> data', data)
   return (
     <DribbbleWrapper>
       {!data ? (

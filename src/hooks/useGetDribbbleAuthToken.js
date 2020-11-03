@@ -17,11 +17,9 @@ export default function useGetDribbbleAuthToken(code) {
   const fullUrl = `${urlPrefix}?client_id=${clientId}&client_secret=${clientSecret}&code=${code}&redirect_uri=${redirectUri}`
   const fetchData = () => fetch(fullUrl, requestOptions)
     .then((response) => {
-      console.log('useGetDribbbleAuthToken -> response', response)
       return response.text()
     })
     .then((data) => {
-      console.log('useGetDribbbleAuthToken -> data', data)
       setData(data)
     })
     .catch((error) => console.log('error', error))
