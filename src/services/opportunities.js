@@ -21,7 +21,8 @@ export default class OpportunitiesService {
   static async get(id) {
     let data
     try {
-      const response = await fetch(`https://torreapi3.behagoras.vercel.app/api/opportunities/${id}`)
+      const url = `https://torreapi3.behagoras.vercel.app/api/opportunities/${id}`
+      const response = await fetch(url)
       const json = await response.json()
       data = json
     } catch (err) {
