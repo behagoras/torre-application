@@ -1,11 +1,11 @@
-import { apiBaseUrl } from '../config'
+// import { apiBaseUrl } from '../config'
 
 export default class UserService {
   static async get(username) {
     let data
     try {
-      const url = `${apiBaseUrl}/bio/?username=${username}`
-      console.log('UserService -> get -> url', url)
+      // const url = `${apiBaseUrl}/bio/?username=${username}`
+      const url = 'https://torreapi3.behagoras.vercel.app/api/bio/taniazapata'
       const result = await fetch(url, {
         method: 'GET', // *GET, POST, PUT, DELETE, etc.
         // mode: 'no-cors', // no-cors, *cors, same-origin
@@ -19,8 +19,6 @@ export default class UserService {
         referrerPolicy: 'no-referrer',
       })
       const _data = await result.json()
-      console.log('UserService -> get -> result', result)
-      console.log('UserService -> get -> _data', _data)
       return _data
     } catch (err) {
       data = { 'ok': false }

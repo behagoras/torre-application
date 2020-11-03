@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Button from '../components/Button'
 import OpportunitiesList from '../components/OpportunitiesList'
+import ProfessionalsList from '../components/ProfessionalsList'
 
 const Title = styled.h2`
   color:${(props) => props.theme.colors.accent};
@@ -19,15 +20,32 @@ const Header = styled.div`
   margin-bottom: ${(props) => props.theme.space * 2}px;
 `
 
+const Section = styled.div`
+  margin-bottom: ${(props) => props.theme.space * 8}px;
+`
+
 const DashboardWrapper = styled.div``
 export default function Dashboard() {
   return (
     <DashboardWrapper>
-      <Header>
-        <Title>Jobs by organizations you have signaled</Title>
-        <Button secondary text="View More" />
-      </Header>
-      <OpportunitiesList />
+      <Section>
+        <Header>
+          <Title>Jobs by organizations you have signaled</Title>
+          <Button secondary>
+            View More
+          </Button>
+        </Header>
+        <OpportunitiesList />
+      </Section>
+      <Section>
+        <Header>
+          <Title>More relevant people in your industry</Title>
+          <Button secondary>
+            View More
+          </Button>
+        </Header>
+        <ProfessionalsList />
+      </Section>
     </DashboardWrapper>
   )
 }

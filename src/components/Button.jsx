@@ -24,11 +24,11 @@ const ButtonStyled = styled.button`
   height: fit-content;
 `
 
-export default function Button({ text, icon, className, secondary }) {
+export default function Button({ text, icon, className, secondary, handleClick, children }) {
   return (
-    <ButtonStyled secondary={secondary} className={className}>
+    <ButtonStyled onClick={handleClick} secondary={secondary} className={className}>
       {icon || ''}
-      {text}
+      {children || text}
     </ButtonStyled>
   )
 }

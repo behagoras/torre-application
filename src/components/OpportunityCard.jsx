@@ -34,8 +34,8 @@ const Avatar = styled.img`
 const Main = styled.div`
   margin-top: 30px;
   padding: ${(props) => props.theme.space * 2}px;
-
 `
+
 const Title = styled.h3`
   font-size: 16px;
   margin-bottom: ${(props) => props.theme.space * 2}px;
@@ -88,7 +88,7 @@ const CloseButton = styled(Button)`
   position: absolute;
   right: 0;
 `
-export default function OpportunityCard({ id }) {
+export default function OpportunityCard({ id, unwantedOpportunities, setUnwantedOpportunities }) {
   const [opportunity, setOpportunity] = useState({
     attachments: [{ address: '' }],
     organizations: [{ picture: '', name: '' }],
@@ -106,13 +106,22 @@ export default function OpportunityCard({ id }) {
         setOpportunity(data)
       })
   }, [])
+  const addUnwanted = () => {
+    const tempUnwanted = { ...unwantedOpportunities }
+    tempUnwanted[id] = id
+    setUnwantedOpportunities(tempUnwanted)
+  }
   return (
     <OpportunityCardStyled>
-      <CloseButton icon={<span className="material-icons">close</span>} />
-      <Cover src={Array.isArray(attachments) && attachments[0].address}>
+      <CloseButton handleClick={addUnwanted} icon={<span className="material-icons">close</span>} />
+      <Cover src={Array.isArray(attachments) &&
+        attachments.length > 0 &&
+        attachments[0].address}
+      >
         <Avatar src={
-          Array.isArray(organizations) ?
-            organizations[0].picture : ''
+          Array.isArray(organizations) &&
+            organizations.length > 0 &&
+            organizations[0].picture
         }
         />
       </Cover>
@@ -140,7 +149,7 @@ export default function OpportunityCard({ id }) {
         </Line>
         <Line>
           Team Members:
-          {opportunity.members.map((member) => <Thumbnail src={member.person.picture} alt={member.person.username} />)}
+          {opportunity.members && opportunity.members.map((member) => <Thumbnail key={id + member.person.id} src={member.person.picture} alt={member.person.username} />)}
         </Line>
       </Main>
       <Footer>
