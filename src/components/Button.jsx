@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import { resetButton } from '../styled/mixins'
 
@@ -24,11 +25,28 @@ const ButtonStyled = styled.button`
   height: fit-content;
 `
 
-export default function Button({ text, icon, className, secondary, handleClick, children }) {
+export default function Button({
+  text,
+  icon,
+  className,
+  secondary,
+  handleClick,
+  children,
+  to,
+}) {
   return (
-    <ButtonStyled onClick={handleClick} secondary={secondary} className={className}>
-      {icon || ''}
-      {children || text}
-    </ButtonStyled>
+    to ? (
+      <Link to={to}>
+        <ButtonStyled onClick={handleClick} secondary={secondary} className={className}>
+          {icon || ''}
+          {children || text}
+        </ButtonStyled>
+      </Link>
+    ) : (
+      <ButtonStyled onClick={handleClick} secondary={secondary} className={className}>
+        {icon || ''}
+        {children || text}
+      </ButtonStyled>
+    )
   )
 }

@@ -31,7 +31,7 @@ export default function Dashboard() {
       <Section>
         <Header>
           <Title>Jobs by organizations you have signaled</Title>
-          <Button secondary>
+          <Button secondary to="/recommended">
             View More
           </Button>
         </Header>

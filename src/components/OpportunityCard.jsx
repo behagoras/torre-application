@@ -88,7 +88,12 @@ const CloseButton = styled(Button)`
   position: absolute;
   right: 0;
 `
-export default function OpportunityCard({ id, unwantedOpportunities, setUnwantedOpportunities }) {
+export default function OpportunityCard({
+  id,
+  unwantedOpportunities,
+  setUnwantedOpportunities,
+  close,
+}) {
   const [opportunity, setOpportunity] = useState({
     attachments: [{ address: '' }],
     organizations: [{ picture: '', name: '' }],
@@ -103,6 +108,7 @@ export default function OpportunityCard({ id, unwantedOpportunities, setUnwanted
   useEffect(() => {
     OpportunitiesService.get(id)
       .then((data) => {
+        console.log('OpportunityCard -> data', data)
         setOpportunity(data)
       })
   }, [])
@@ -113,12 +119,13 @@ export default function OpportunityCard({ id, unwantedOpportunities, setUnwanted
   }
   return (
     <OpportunityCardStyled>
-      <CloseButton handleClick={addUnwanted} icon={<span className="material-icons">close</span>} />
+      {close && <CloseButton handleClick={addUnwanted} icon={<span className="material-icons">close</span>} />}
       <Cover src={Array.isArray(attachments) &&
         attachments.length > 0 &&
         attachments[0].address}
       >
         <Avatar src={
+          organizations &&
           Array.isArray(organizations) &&
             organizations.length > 0 &&
             organizations[0].picture
@@ -131,6 +138,7 @@ export default function OpportunityCard({ id, unwantedOpportunities, setUnwanted
           <span>{organizations[0].name}</span>
           <Button
             text="signal"
+            // handleClick={addUnwanted}
             icon={<span className="material-icons">sports_handball</span>}
           />
         </SignalArea>

@@ -2,14 +2,22 @@
 import React, { useEffect, useState } from 'react'
 
 import styled from 'styled-components'
+import Button from '../components/Button'
 import OpportunityCard from '../components/OpportunityCard'
 import OpportunitiesService from '../services/opportunities'
+import useGetOpportunities from '../hooks/useGetOpportunities'
 
 const RecommendedJobsStyled = styled.div`
   max-width: 100vw;
 `
-const Header = styled.div``
-const Title = styled.h1``
+const Header = styled.div`
+  display:flex;
+  align-content: center;
+  align-items: center;
+`
+const Title = styled.h1`
+  margin-left:${(props) => props.theme.space * 2}px;
+`
 const Main = styled.main``
 const OpportunitiesWrapper = styled.div`
   display: grid;
@@ -18,40 +26,34 @@ const OpportunitiesWrapper = styled.div`
 `
 
 export default function RecommendedJobs() {
-  const [opportunities, setOpportunities] = useState([{}])
-  const [unwantedOpportunities, setUnwantedOpportunities] = useState({})
-  const getOpportunities = async () => {
-    const data = await OpportunitiesService.getAll()
-    setOpportunities(data)
-  }
-  useEffect(() => {
-    getOpportunities()
-  }, [])
-  useEffect(() => {
-    const newOpportunities = []
-    opportunities.forEach((opportunity) => {
-      if (typeof unwantedOpportunities[opportunity.id] === 'undefined') {
-        newOpportunities.push(opportunity)
-      }
-    })
-    setOpportunities(newOpportunities)
-  }, [unwantedOpportunities])
+  const {
+    opportunities,
+    unwantedOpportunities,
+    setUnwantedOpportunities,
+  } = useGetOpportunities()
   return (
     <RecommendedJobsStyled>
       <Header>
-        <Title>Recommended Jobs</Title>
+        <Button to="/"><span className="material-icons">arrow_left</span></Button>
+        <Title>
+          Recommended Jobs
+        </Title>
       </Header>
       <Main>
         <OpportunitiesWrapper>
           { opportunities
-            .map((opportunity) => (
-              <OpportunityCard
-                unwantedOpportunities={unwantedOpportunities}
-                setUnwantedOpportunities={setUnwantedOpportunities}
-                id={opportunity.id}
-                key={opportunity.id}
-              />
-            ))}
+            .map((opportunity) => {
+              console.log('RecommendedJobs -> opportunity', opportunity)
+              return (
+                <OpportunityCard
+                  unwantedOpportunities={unwantedOpportunities}
+                  setUnwantedOpportunities={setUnwantedOpportunities}
+                  id={opportunity.id}
+                  key={opportunity.id}
+                  close={true}
+                />
+              )
+            })}
         </OpportunitiesWrapper>
       </Main>
     </RecommendedJobsStyled>
